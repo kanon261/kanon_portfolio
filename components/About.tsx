@@ -6,7 +6,7 @@ export default function About() {
         <div className="about-content">
           <div className="about-image">
             {/* eslint-disable-next-line @next/next/no-img-element */}
-            <img src="https://kanon261.github.io/images/profile-photo.png" alt="Baba Kanon" />
+            <img src="/images/profile-photo.jpg" alt="Baba Kanon" />
           </div>
           <div className="about-text">
             <h3>Baba Kanon</h3>
@@ -17,7 +17,7 @@ export default function About() {
                 <span className="label">Club: </span>
                 <a href="https://www.instagram.com/tabippo.south/" target="_blank" rel="noopener noreferrer">TABIPPO</a>、
                 <a href="https://www.instagram.com/centia.women/" target="_blank" rel="noopener noreferrer">センティア</a>、
-                <a href="https://www.instagram.com/finding__ai/" target="_blank" rel="noopener noreferrer">Finding AI</a>、
+                <a href="https://finding-ai.net/" target="_blank" rel="noopener noreferrer">Finding AI</a>、
                 <a href="https://x.com/kindaijourite" target="_blank" rel="noopener noreferrer">情報リテラシー研究会</a>
               </p>
             </div>
