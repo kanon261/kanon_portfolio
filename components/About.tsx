@@ -15,9 +15,9 @@ export default function About() {
               <p><span className="label">University: </span>近畿大学 情報学科</p>
               <p>
                 <span className="label">Club: </span>
-                <a href="https://www.instagram.com/tabippo.south/" target="_blank" rel="noopener noreferrer">TABIPPO</a>、
-                <a href="https://www.instagram.com/centia.women/" target="_blank" rel="noopener noreferrer">センティア</a>、
                 <a href="https://finding-ai.net/" target="_blank" rel="noopener noreferrer">Finding AI</a>、
+                <a href="https://www.instagram.com/tabippo.south/" target="_blank" rel="noopener noreferrer">TABIPPO</a>、
+                <a href="https://centia.crap.jp/" target="_blank" rel="noopener noreferrer">センティア</a>、
                 <a href="https://x.com/kindaijourite" target="_blank" rel="noopener noreferrer">情報リテラシー研究会</a>
               </p>
             </div>
