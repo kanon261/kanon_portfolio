@@ -36,9 +36,11 @@
 .loading-bird {
     position: absolute;
     left: 58%;
-    bottom: 157px;
+    bottom: 36%;
     transform: translateX(-50%);
-    width: 80px;
+    width: 8%;
+    min-width: 40px;
+    max-width: 80px;
     height: auto;
     animation: appleBrightness 2.5s ease-in-out forwards;
 }
