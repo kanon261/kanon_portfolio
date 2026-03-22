@@ -6,7 +6,7 @@ export default function About() {
         <div className="about-content">
           <div className="about-image">
             {/* eslint-disable-next-line @next/next/no-img-element */}
-            <img src="/images/profile-photo.jpg" alt="Baba Kanon" />
+            <img src="/images/IMG_5713.jpeg" alt="Baba Kanon" />
           </div>
           <div className="about-text">
             <h3>Baba Kanon</h3>
