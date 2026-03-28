@@ -34,8 +34,6 @@ export default function Works({ works }: Props) {
             <a
               key={work.id}
               href={work.url}
-              target="_blank"
-              rel="noopener noreferrer"
               className="product-card"
             >
               <div className="product-image">
