@@ -1,6 +1,7 @@
 'use client'
 
 import { useEffect, useRef } from 'react'
+import Link from 'next/link'
 import type { Work } from '@/types'
 
 type Props = { works: Work[] }
@@ -31,9 +32,9 @@ export default function Works({ works }: Props) {
         <h2 className="section-title">Coding Products</h2>
         <div className="products-grid" ref={gridRef}>
           {works.map((work) => (
-            <a
+            <Link
               key={work.id}
-              href={work.url}
+              href={`/works/${work.id}`}
               className="product-card"
             >
               <div className="product-image">
@@ -46,7 +47,7 @@ export default function Works({ works }: Props) {
                 <p className="product-date">{work.date}</p>
                 <p className="product-type">{work.category}</p>
               </div>
-            </a>
+            </Link>
           ))}
         </div>
       </div>
