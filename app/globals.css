@@ -82,7 +82,7 @@ html { scroll-behavior: smooth; overflow-x: hidden; }
     left: 0;
     pointer-events: none;
     z-index: 9999;
-    transition: transform 0.15s ease;
+    transition: transform 0.15s ease, opacity 0.2s ease;
     mix-blend-mode: multiply;
 }
 
@@ -98,6 +98,16 @@ html { scroll-behavior: smooth; overflow-x: hidden; }
     z-index: 9998;
     opacity: 0.5;
     transition: opacity 0.3s;
+}
+
+/* タッチデバイスではカーソルをデフォルト非表示（タッチ時にJSで表示） */
+@media (hover: none) and (pointer: coarse) {
+    #cursor {
+        opacity: 0;
+    }
+    #cursor-ring {
+        opacity: 0;
+    }
 }
 
 body {

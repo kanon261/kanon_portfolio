@@ -11,13 +11,37 @@ export default function Cursor() {
   const ry = useRef(0)
 
   useEffect(() => {
-    const onMove = (e: MouseEvent) => {
-      mx.current = e.clientX
-      my.current = e.clientY
+    const updatePos = (x: number, y: number) => {
+      mx.current = x
+      my.current = y
       if (cursorRef.current) {
-        cursorRef.current.style.left = e.clientX - 6 + 'px'
-        cursorRef.current.style.top = e.clientY - 6 + 'px'
+        cursorRef.current.style.left = x - 6 + 'px'
+        cursorRef.current.style.top = y - 6 + 'px'
       }
+    }
+
+    const onMove = (e: MouseEvent) => updatePos(e.clientX, e.clientY)
+
+    const onTouchMove = (e: TouchEvent) => {
+      const t = e.touches[0]
+      updatePos(t.clientX, t.clientY)
+      if (cursorRef.current) cursorRef.current.style.opacity = '1'
+      if (ringRef.current) ringRef.current.style.opacity = '0.5'
+    }
+
+    const onTouchStart = (e: TouchEvent) => {
+      const t = e.touches[0]
+      // リングをタッチ位置に即ジャンプ（初回ズレ防止）
+      rx.current = t.clientX
+      ry.current = t.clientY
+      updatePos(t.clientX, t.clientY)
+      if (cursorRef.current) cursorRef.current.style.opacity = '1'
+      if (ringRef.current) ringRef.current.style.opacity = '0.5'
+    }
+
+    const onTouchEnd = () => {
+      if (cursorRef.current) cursorRef.current.style.opacity = '0'
+      if (ringRef.current) ringRef.current.style.opacity = '0'
     }
 
     let raf: number
@@ -42,6 +66,9 @@ export default function Cursor() {
     }
 
     document.addEventListener('mousemove', onMove)
+    document.addEventListener('touchmove', onTouchMove, { passive: true })
+    document.addEventListener('touchstart', onTouchStart, { passive: true })
+    document.addEventListener('touchend', onTouchEnd)
     document.querySelectorAll('a, button').forEach((el) => {
       el.addEventListener('mouseenter', onEnter)
       el.addEventListener('mouseleave', onLeave)
@@ -49,6 +76,9 @@ export default function Cursor() {
 
     return () => {
       document.removeEventListener('mousemove', onMove)
+      document.removeEventListener('touchmove', onTouchMove)
+      document.removeEventListener('touchstart', onTouchStart)
+      document.removeEventListener('touchend', onTouchEnd)
       cancelAnimationFrame(raf)
     }
   }, [])
