@@ -7,8 +7,8 @@ export default function Loading() {
   const [removed, setRemoved] = useState(false)
 
   useEffect(() => {
-    const t1 = setTimeout(() => setFadeOut(true), 2800)
-    const t2 = setTimeout(() => setRemoved(true), 3600)
+    const t1 = setTimeout(() => setFadeOut(true), 1500)
+    const t2 = setTimeout(() => setRemoved(true), 2300)
     return () => { clearTimeout(t1); clearTimeout(t2) }
   }, [])
 

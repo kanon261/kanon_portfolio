@@ -49,7 +49,7 @@ const FALLBACK_WORKS: Work[] = [
     title: '2025 GCI summer',
     date: '2025.09',
     category: 'Certificate',
-    thumbnail: '/images/IMG_6266.jpeg',
+    thumbnail: '/images/GCI.png',
     url: 'https://kanon261.github.io/gci.html',
   },
   {

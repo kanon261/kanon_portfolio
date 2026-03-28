@@ -53,7 +53,7 @@ export default function Contact() {
           </div>
           <p className="credits">
             Illustrations:{' '}
-            <a href="https://xn--u9j9hpb6a0g1a.com/" target="_blank" rel="noopener noreferrer">フリーペンシル</a> /{' '}
+            <a href="https://iconbu.com/" target="_blank" rel="noopener noreferrer">フリーペンシル</a> /{' '}
             <a href="https://eiyoushi-hutaba.com/" target="_blank" rel="noopener noreferrer">フタバ</a> /{' '}
             <a href="https://kaiunillust.com/" target="_blank" rel="noopener noreferrer">ILOHACO</a> /{' '}
             <a href="https://hiyokoyarou.com/" target="_blank" rel="noopener noreferrer">ぴよたそ</a> /{' '}
