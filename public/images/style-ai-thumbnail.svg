@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="600" viewBox="0 0 400 600">
+  <!-- Background -->
+  <rect width="400" height="600" fill="#f8f4f0" rx="16"/>
+
+  <!-- Smartphone outer frame -->
+  <rect x="60" y="30" width="280" height="540" rx="40" fill="#1a1a1a"/>
+  <!-- Smartphone screen -->
+  <rect x="71" y="50" width="258" height="502" rx="30" fill="#fff5f5"/>
+  <!-- Notch -->
+  <rect x="155" y="50" width="90" height="22" rx="11" fill="#1a1a1a"/>
+
+  <!-- Header bar -->
+  <rect x="71" y="50" width="258" height="54" rx="30" fill="white"/>
+  <rect x="71" y="72" width="258" height="32" fill="white"/>
+  <!-- Logo icon -->
+  <rect x="86" y="62" width="26" height="26" rx="9" fill="#D97497"/>
+  <text x="99" y="79" font-family="Arial, sans-serif" font-size="12" font-weight="700" fill="white" text-anchor="middle">S</text>
+  <text x="122" y="81" font-family="Arial, sans-serif" font-size="13" font-weight="700" fill="#1a1a1a">StyleAI</text>
+  <text x="316" y="81" font-family="Arial, sans-serif" font-size="10" fill="#D97497" text-anchor="end">Beta</text>
+
+  <!-- Badge pill -->
+  <rect x="111" y="104" width="178" height="22" rx="11" fill="#fff0f3"/>
+  <text x="200" y="119" font-family="Arial, sans-serif" font-size="8.5" fill="#D97497" text-anchor="middle">★ AIがあなたの「似合う」を分析 ★</text>
+
+  <!-- Hero text -->
+  <text x="200" y="160" font-family="serif" font-size="22" font-weight="700" fill="#1a1a1a" text-anchor="middle">あなただけの</text>
+  <text x="200" y="188" font-family="serif" font-size="22" font-weight="700" fill="#D97497" text-anchor="middle">「似合う」</text>
+  <text x="200" y="216" font-family="serif" font-size="22" font-weight="700" fill="#1a1a1a" text-anchor="middle">を見つけよう</text>
+
+  <!-- Sub text -->
+  <text x="200" y="244" font-family="Arial, sans-serif" font-size="9" fill="#888" text-anchor="middle">簡単な質問に答えるだけで、AIがあなたに</text>
+  <text x="200" y="258" font-family="Arial, sans-serif" font-size="9" fill="#888" text-anchor="middle">ピッタリのメイク・ファッションを提案します。</text>
+
+  <!-- CTA button -->
+  <rect x="116" y="272" width="168" height="40" rx="20" fill="#D97497"/>
+  <text x="200" y="297" font-family="Arial, sans-serif" font-size="13" font-weight="700" fill="white" text-anchor="middle">⚙ 診断スタート</text>
+  <text x="200" y="324" font-family="Arial, sans-serif" font-size="8.5" fill="#aaa" text-anchor="middle">無料・登録不要・約3分で完了</text>
+
+  <!-- Feature cards row -->
+  <rect x="80" y="344" width="72" height="72" rx="14" fill="white" opacity="0.95"/>
+  <text x="116" y="370" font-family="Arial, sans-serif" font-size="14" fill="#D97497" text-anchor="middle">✨</text>
+  <text x="116" y="386" font-family="Arial, sans-serif" font-size="7.5" fill="#555" text-anchor="middle">パーソナル</text>
+  <text x="116" y="398" font-family="Arial, sans-serif" font-size="7.5" fill="#555" text-anchor="middle">カラー</text>
+
+  <rect x="164" y="344" width="72" height="72" rx="14" fill="white" opacity="0.95"/>
+  <text x="200" y="370" font-family="Arial, sans-serif" font-size="14" fill="#D97497" text-anchor="middle">♡</text>
+  <text x="200" y="390" font-family="Arial, sans-serif" font-size="7.5" fill="#555" text-anchor="middle">骨格診断</text>
+
+  <rect x="248" y="344" width="72" height="72" rx="14" fill="white" opacity="0.95"/>
+  <text x="284" y="370" font-family="Arial, sans-serif" font-size="14" fill="#D97497" text-anchor="middle">⚡</text>
+  <text x="284" y="390" font-family="Arial, sans-serif" font-size="7.5" fill="#555" text-anchor="middle">シェア機能</text>
+
+  <!-- Second row cards -->
+  <rect x="80" y="426" width="112" height="56" rx="12" fill="white" opacity="0.9"/>
+  <text x="136" y="448" font-family="Arial, sans-serif" font-size="8" fill="#D97497" text-anchor="middle">☀ 今日のコーデ提案</text>
+  <text x="136" y="462" font-family="Arial, sans-serif" font-size="7" fill="#888" text-anchor="middle">天気×シーン別に毎日提案</text>
+
+  <rect x="202" y="426" width="118" height="56" rx="12" fill="#e8f5e9" opacity="0.9"/>
+  <text x="261" y="448" font-family="Arial, sans-serif" font-size="8" fill="#4caf50" text-anchor="middle">☑ ワードローブ管理</text>
+  <text x="261" y="462" font-family="Arial, sans-serif" font-size="7" fill="#888" text-anchor="middle">手持ちアイテムの相性チェック</text>
+
+  <!-- Home indicator -->
+  <rect x="160" y="530" width="80" height="5" rx="2.5" fill="#ccc"/>
+</svg>

@@ -36,6 +36,64 @@ export async function getWorks(): Promise<Work[]> {
 // Contentful 未設定時のフォールバックデータ
 const FALLBACK_WORKS: Work[] = [
   {
+    id: '6',
+    title: 'Style AI',
+    date: '2026.04/18',
+    category: 'Web App',
+    thumbnail: '/images/style-ai-thumbnail.svg',
+    url: 'https://style-ai-wheat.vercel.app/',
+    detail: {
+      subtitle: '「似合う」を可視化するAIスタイリスト',
+      technologies: [
+        { name: 'TypeScript', icon: 'https://kanon261.github.io/images/icon-javascript.png' },
+        { name: 'Vue.js', icon: 'https://kanon261.github.io/images/icon-react-.png' },
+        { name: 'Tailwind CSS', icon: 'https://kanon261.github.io/images/icon-css.png' },
+      ],
+      table: [
+        { label: 'GitHub', value: 'kanon261/Style-AI', link: 'https://github.com/kanon261/Style-AI' },
+        { label: 'デモ', value: 'style-ai-wheat.vercel.app', link: 'https://style-ai-wheat.vercel.app/' },
+        { label: '背景', value: '株式会社Relic 1dayインターン（AI×プロダクト開発体験）', link: 'https://relic.co.jp/' },
+        { label: '使用技術', value: 'TypeScript, Vue.js, Tailwind CSS' },
+        { label: '制作人数', value: '1名（個人開発）' },
+        { label: '制作時期', value: '2026.04/18' },
+      ],
+      sections: [
+        {
+          title: 'プロジェクト概要',
+          paragraphs: [
+            '簡単な質問に答えるだけで、AIがパーソナルカラー（イエベ・ブルベ）と骨格診断を行い、似合うメイク・ファッション・NG例まで提案するWebアプリ。無料・登録不要・約3分で診断が完了する。',
+            'コンセプトは「自分に似合うメイクや服が分からない」「パーソナルカラー診断は高くて気軽に試せない」という悩みをAIで手軽に解決すること。',
+          ],
+        },
+        {
+          title: '制作背景',
+          paragraphs: ['株式会社Relicが主催する1dayインターン「AI×プロダクト開発体験」に参加し、企画・設計・実装・発表を1日で行った。MVPとして診断機能とUI実装を優先し、短時間で動くプロダクトを完成させることを目標とした。'],
+        },
+        {
+          title: '主な機能',
+          items: [
+            'パーソナルカラー診断（イエベ・ブルベ）',
+            '骨格診断（似合うシルエット提案）',
+            'AIによるメイク・ファッション・NG例の提案',
+            '今日のコーデ提案（天気×シーン別に毎日更新）',
+            'ワードローブ管理（手持ちアイテムの相性チェック）',
+            '診断履歴・季節変化トラッキング',
+            '2人診断（ペアコーデ相性チェック）',
+            '結果のURLシェア機能',
+          ],
+        },
+        {
+          title: '診断システム',
+          paragraphs: ['diagnosisEngine.ts にルールベースのロジックを実装し、ユーザーの肌トーン・雰囲気・好きな系統・悩みの入力をもとにパーソナルカラーと骨格タイプを判定。①タイプ診断 ②特徴 ③メイク提案 ④ファッション提案 ⑤NG例 ⑥一言コメント の6項目を出力する。'],
+        },
+        {
+          title: '学んだこと',
+          paragraphs: ['1日という制約の中で、企画からデプロイまでを一人でやり切った。自分の作りたいものの理想にできるだけ近づけ、とにかく動くものを時間以内に完成させることを目標に開発を進めた。', 'APIの接続がうまくいかなかったが、完成を優先して切り替えを決断し、ルールベースのロジックで診断機能を実装した。「動くものを届けること」への意識と、状況に応じて柔軟に方針を変える判断力を学んだ。'],
+        },
+      ],
+    },
+  },
+  {
     id: '1',
     title: '麻雀学習ゲーム',
     date: '2026.01',
