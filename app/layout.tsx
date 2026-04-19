@@ -4,7 +4,7 @@ import './globals.css'
 export const metadata: Metadata = {
   title: "Kanon's Portfolio",
   description: '近畿大学情報学科 Baba Kanonのポートフォリオサイト。制作物・学習記録を掲載しています。',
-  icons: { icon: '/favicon.png' },
+  icons: { icon: '/icon.png' },
   openGraph: {
     title: "Kanon's Portfolio",
     description: 'つくりながら学び、学びながらつくる',
