@@ -11,17 +11,17 @@ export default function Nav() {
       <div className="nav-container">
         <a href="#" className="nav-logo">
           {/* eslint-disable-next-line @next/next/no-img-element */}
-          <img src="https://kanon261.github.io/images/icon_shimaenaga.png" alt="icon" className="nav-icon" />
+          <img src="/images/icon_shimaenaga.png" alt="icon" className="nav-icon" />
           MyPortfolio
         </a>
 
         <ul className={`nav-menu${menuOpen ? ' active' : ''}`}>
-          <li><img src="https://kanon261.github.io/images/birds.gif" alt="birds" className="nav-birds-left" /></li>
+          <li><img src="/images/birds.gif" alt="birds" className="nav-birds-left" /></li>
           <li><a href="#home" onClick={closeMenu}>HOME</a></li>
           <li><a href="#about" onClick={closeMenu}>ABOUT</a></li>
           <li><a href="#products" onClick={closeMenu}>PRODUCTS</a></li>
           <li><a href="#contact" onClick={closeMenu}>CONTACT</a></li>
-          <li><img src="https://kanon261.github.io/images/birds_huwahuwa.png" alt="birds" className="nav-birds" /></li>
+          <li><img src="/images/birds_huwahuwa.png" alt="birds" className="nav-birds" /></li>
         </ul>
 
         <button

@@ -8,7 +8,7 @@ export default function Contact() {
           <p className="concept-text">つくりながら学び、学びながらつくる</p>
           <div className="concept-image">
             {/* eslint-disable-next-line @next/next/no-img-element */}
-            <img src="https://kanon261.github.io/images/shimaenagas_huwahuwa.png" alt="シマエナガ" />
+            <img src="/images/shimaenagas_huwahuwa.png" alt="シマエナガ" />
           </div>
         </div>
       </section>
@@ -37,22 +37,30 @@ export default function Contact() {
               <p className="footer-subtitle">- BabaKanon&apos;s Products -</p>
             </div>
             <div className="social-links">
+              <a href="https://github.com/kanon261" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+                {/* eslint-disable-next-line @next/next/no-img-element */}
+                <img src="/images/icon_github.jpg" alt="GitHub" />
+              </a>
               <a href="https://www.instagram.com/non2u._.u/" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
                 {/* eslint-disable-next-line @next/next/no-img-element */}
-                <img src="https://kanon261.github.io/images/insta_cat.jpg" alt="Instagram" />
+                <img src="/images/insta_cat.jpg" alt="Instagram" />
               </a>
               <a href="https://x.com/z8it44iz48630" target="_blank" rel="noopener noreferrer" aria-label="X (Twitter)">
                 {/* eslint-disable-next-line @next/next/no-img-element */}
-                <img src="https://kanon261.github.io/images/icon_x.jpg" alt="X" />
+                <img src="/images/icon_x.jpg" alt="X" />
               </a>
-              <a href="https://github.com/kanon261" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+              <a href="https://lite.tiktok.com/t/ZS9jTxRDT3Xfe-NHiPs/" target="_blank" rel="noopener noreferrer" aria-label="TikTok">
                 {/* eslint-disable-next-line @next/next/no-img-element */}
-                <img src="https://kanon261.github.io/images/icon_github.jpg" alt="GitHub" />
+                <img src="/images/icons8-tiktok-94.png" alt="TikTok" />
+              </a>
+              <a href="https://www.linkedin.com/in/kanon-baba-40a527402?utm_source=share_via&utm_content=profile&utm_medium=member_ios" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+                {/* eslint-disable-next-line @next/next/no-img-element */}
+                <img src="/images/icons8-linkedin-96.png" alt="LinkedIn" />
               </a>
             </div>
           </div>
           <p className="credits">
-            Illustrations:{' '}
+            Illustrations & Icons:{' '}
             <a href="https://iconbu.com/" target="_blank" rel="noopener noreferrer">フリーペンシル</a> /{' '}
             <a href="https://eiyoushi-hutaba.com/" target="_blank" rel="noopener noreferrer">フタバ</a> /{' '}
             <a href="https://kaiunillust.com/" target="_blank" rel="noopener noreferrer">ILOHACO</a> /{' '}

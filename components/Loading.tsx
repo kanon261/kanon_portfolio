@@ -19,13 +19,13 @@ export default function Loading() {
       <div className="loading-apples-container">
         {/* eslint-disable-next-line @next/next/no-img-element */}
         <img
-          src="https://kanon261.github.io/images/loading_apples.png"
+          src="/images/loading_apples.png"
           alt="Loading"
           className="loading-apples"
         />
         {/* eslint-disable-next-line @next/next/no-img-element */}
         <img
-          src="https://kanon261.github.io/images/icon_shimaenaga.png"
+          src="/images/icon_shimaenaga.png"
           alt="Shimaenaga"
           className="loading-bird"
         />

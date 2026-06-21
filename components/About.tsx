@@ -12,13 +12,15 @@ export default function About() {
             <h3>Baba Kanon</h3>
             <div className="about-info">
               <p><span className="label">Name: </span>Baba Kanon</p>
-              <p><span className="label">University: </span>近畿大学 情報学科</p>
-              <p>
-                <span className="label">Club: </span>
-                <a href="https://finding-ai.net/" target="_blank" rel="noopener noreferrer">Finding AI</a>、
-                <a href="https://centia.crap.jp/" target="_blank" rel="noopener noreferrer">センティア</a>、
-                <a href="https://www.instagram.com/tabippo.south/" target="_blank" rel="noopener noreferrer">TABIPPO</a>、
-                <a href="https://x.com/kindaijourite" target="_blank" rel="noopener noreferrer">情報リテラシー研究会</a>
+              <p><span className="label">University: </span>Kindai University</p>
+              <p style={{ display: 'flex', alignItems: 'flex-start' }}>
+                <span className="label" style={{ flexShrink: 0 }}>Club: </span>
+                <span>
+                  <span style={{ whiteSpace: 'nowrap' }}><a href="https://finding-ai.net/" target="_blank" rel="noopener noreferrer">Finding AI</a>、</span>
+                  <span style={{ whiteSpace: 'nowrap' }}><a href="https://centia.crap.jp/" target="_blank" rel="noopener noreferrer">センティア</a>、</span>
+                  <span style={{ whiteSpace: 'nowrap' }}><a href="https://www.instagram.com/tabippo.south/" target="_blank" rel="noopener noreferrer">TABIPPO</a>、</span>
+                  <span style={{ whiteSpace: 'nowrap' }}><a href="https://www.instagram.com/jorite_kindai/?hl=ja" target="_blank" rel="noopener noreferrer">情報リテラシー研究会</a></span>
+                </span>
               </p>
             </div>
             <p className="about-description">

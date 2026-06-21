@@ -9,7 +9,7 @@ export default function Hero() {
         <div className="hero-icon-wrapper">
           <div className="hero-icon">
             {/* eslint-disable-next-line @next/next/no-img-element */}
-            <img src="https://kanon261.github.io/images/rabbit_ribbon.jpg" alt="Profile Icon" />
+            <img src="/images/rabbit_ribbon.jpg" alt="Profile Icon" />
           </div>
           <div className="floating-tag floating-tag--top">
             <span className="floating-tag-dot" />
